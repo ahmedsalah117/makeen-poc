@@ -133,7 +133,7 @@ The project is built using **HTML**, **CSS**, **JavaScript**, and **jQuery**.
 2. Scroll through the dropdown menu to trigger infinite scrolling and load more suggestions.
 3. Select items from the suggestions; selected items will appear as tags.
 4. Use the "Clear All" button to remove all selected items.
-5. Click "See All" to view recent items in a modal.
+5. Click "See All" to view all recent items in a modal.
 6. Hover over images to see the zoom effect.
 
 ---
