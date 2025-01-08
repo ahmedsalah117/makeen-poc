@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced Dropdown</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="dropdown-container">
+      <div class="dropdown-header">
+        <div class="multi-selected">
+          <input type="text" id="search-input" placeholder="Search..." />
+          <button class="clear-search">×</button>
+        </div>
+      </div>
+      <div class="selected-container"></div>
+      <div class="clear-selections-container">
+        <button class="clear-selections">Clear All</button>
+      </div>
+      <div id="dropdown-menu">
+        <div class="recent-section">
+          <div class="recent-header">
+            <h4>Recent</h4>
+            <a href="#" class="see-all">See all</a>
+          </div>
+          <div id="recent-grid" class="recent-grid">
+            <!-- Recent items rendered here -->
+          </div>
+        </div>
+        <ul id="suggestion-list" class="suggestion-list">
+          <!-- Suggestion items rendered here -->
+        </ul>
+      </div>
+    </div>
+
+    <div id="recent-modal" class="modal">
+      <div class="modal-content">
+        <button id="close-modal" class="close-modal">×</button>
+        <div id="recent-modal-content" class="recent-modal-content">
+          <!-- Recent items will be rendered here -->
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="mock-api.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
